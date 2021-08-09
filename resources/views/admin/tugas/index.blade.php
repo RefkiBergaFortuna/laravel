@@ -50,7 +50,9 @@
 
                             <div class="card-header">
                                 <strong class="card-title">{{$pagename}}</strong>
+                                @can('tugas-create')
                                 <a href="{{route('tugas.create')}}" class="btn btn-primary pull-right">Tambah</a>
+                                @endcan
                             </div>
                             <div class="card-body">
                                 <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
@@ -105,10 +107,10 @@
             </div><!-- .animated -->
         </div><!-- .content -->
 
-        <script src="{{asset('public/vendors/jquery/dist/jquery.min.js')}}"></script>
+        <!-- <script src="{{asset('public/vendors/jquery/dist/jquery.min.js')}}"></script>
     <script src="{{asset('public/vendors/popper.js/dist/umd/popper.min.js')}}"></script>
     <script src="{{asset('public/vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/main.js')}}"></script>
+    <script src="{{asset('public/assets/js/main.js')}}"></script> -->
 
 
     <script src="{{asset('public/vendors/datatables.net/js/jquery.dataTables.min.js')}}"></script>

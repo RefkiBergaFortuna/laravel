@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: pink;
+                background-color: purple;
                 color: black;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    FirmanFauzy_361955401136
+                    RefkiBerga_361955401128
                 </div>
 
                 <div class="links">
